@@ -12,6 +12,7 @@ S3 (Raw) → Glue Crawler → Glue ETL → S3 (Processed) → Redshift COPY → 
 
 ## 📂 Repository Structure
 
+```text
 aws-glue-s3-redshift-etl/
 ├── glue/
 ├── redshift/
@@ -19,6 +20,8 @@ aws-glue-s3-redshift-etl/
 ├── iam/
 ├── docs/
 └── data/
+```
+
 
 
 
