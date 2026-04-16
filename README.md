@@ -8,12 +8,12 @@
 
 <p align="center">
 
-  <img src="https://img.shields.io/badge/Glue-Spark%20ETL-blueviolet?style=flat-square&logo=apache-spark" />
-  <img src="https://img.shields.io/badge/S3-Data%20Lake-orange?style=flat-square&logo=amazon-aws" />
-  <img src="https://img.shields.io/badge/Redshift-Analytics-red?style=flat-square&logo=amazon-aws" />
-  <img src="https://img.shields.io/badge/Data_Quality-Enabled-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/ETL_Status-Operational-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Data_Quality-Passing-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Pipeline-Version_1.0-blue?style=for-the-badge" />
 
 </p>
+
 
 
 A fully automated ETL pipeline that ingests raw CSV data from S3, processes it using AWS Glue, applies data quality rules, stores cleaned data back into S3, and loads it into Amazon Redshift for analytics.
