@@ -1,29 +1,11 @@
 # AWS Glue → S3 → Redshift ETL Pipeline
 
-<p align="center">
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![AWS Glue](https://img.shields.io/badge/AWS_Glue-ETL-orange)
+![AWS S3](https://img.shields.io/badge/AWS_S3-Storage-yellow)
+![AWS Redshift](https://img.shields.io/badge/AWS_Redshift-Data_Warehouse-red)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-  <!-- Python -->
-  <img src="https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge" />
-
-  <!-- AWS Glue -->
-  <img src="https://img.shields.io/badge/AWS%20Glue-ETL-orange?style=for-the-badge&logo=amazon-aws" />
-
-  <!-- AWS S3 -->
-  <img src="https://img.shields.io/badge/AWS%20S3-Storage-yellow?style=for-the-badge&logo=amazon-aws" />
-
-  <!-- AWS Redshift -->
-  <img src="https://img.shields.io/badge/AWS%20Redshift-Data%20Warehouse-red?style=for-the-badge&logo=amazon-aws" />
-
-  <!-- License -->
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
-
-  <!-- Repo Size -->
-  <img src="https://img.shields.io/github/repo-size/YOUR_GITHUB_USERNAME/aws-glue-s3-redshift-etl?style=for-the-badge" />
-
-  <!-- Last Commit -->
-  <img src="https://img.shields.io/github/last-commit/YOUR_GITHUB_USERNAME/aws-glue-s3-redshift-etl?style=for-the-badge" />
-
-</p>
 
 
 A fully automated ETL pipeline that ingests raw CSV data from S3, processes it using AWS Glue, applies data quality rules, stores cleaned data back into S3, and loads it into Amazon Redshift for analytics.
