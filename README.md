@@ -46,14 +46,14 @@ aws-glue-s3-redshift-etl/
 ---
 
 ## 🧪 Data Quality Rules
-
+```text
 IsComplete "customer_id"
 IsComplete "signup_date"
 Completeness "full_name" >= 0.6
 Completeness "age" >= 0.6
 Completeness "country" >= 0.6
 ColumnValues "age" between 0 and 120
-
+```
 
 ---
 
